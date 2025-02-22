@@ -1,0 +1,63 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 4em;
+  text-shadow: whitesmoke 2px 2px 2px;
+}
+
+h3,
+p {
+  padding: 0.5em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navbar ul {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em;
+  background-color: #202c59;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0%);
+  }
+  100% {
+    transform: scale(120%);
+  }
+}
+
+.navbar a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 10px 15px;
+  line-height: 1.3em;
+}
+
+.title {
+  background-image: url("./oldnewspaper.jpg");
+  height: auto;
+  position: 0 0;
+  width: 100%;
+  background-size: cover;
+}
